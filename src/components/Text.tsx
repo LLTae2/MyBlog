@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
 
-type TextProps = {
+interface TextProps {
   text: string
 }
 
