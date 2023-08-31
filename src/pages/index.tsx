@@ -2,6 +2,7 @@ import React, { FunctionComponent } from 'react'
 import styled from '@emotion/styled'
 import GlobalStyle from 'components/common/GlobalStyle'
 import Introduction from 'components/Main/Introduction'
+import Footer from 'components/common/Footer'
 
 const Container = styled.div`
   display: flex;
@@ -14,6 +15,7 @@ const IndexPage: FunctionComponent = function () {
     <Container>
       <GlobalStyle />
       <Introduction />
+      <Footer />
     </Container>
   )
 }
